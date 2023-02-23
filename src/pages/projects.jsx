@@ -8,42 +8,63 @@ import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logofadsan from '@/images/logos/fadsan.svg'
+import logoiris from '@/images/logos/irishkellystudio.svg'
+import logoamaura from '@/images/logos/amaura.svg'
+import logotravelers from '@/images/logos/travelers.svg'
+import logodeary from '@/images/logos/dearyspesial.svg'
+
+
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Fadsan',
     description:
       'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+    link: { href: 'http://fadsan.id', label: 'fadsan.id' },
+    logo: logofadsan,
   },
   {
-    name: 'Animaginary',
+    name: 'Irish Kelly Studio',
     description:
       'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+    link: { href: 'http://irishkellystudio.com', label: 'irishkellystudio.com' },
+    logo: logoiris,
   },
   {
-    name: 'HelioStream',
+    name: 'Deary Spesial',
     description:
       'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
+    link: { href: 'https://dearyspesial.com/', label: 'dearyspesial.com' },
+    logo: logodeary,
   },
   {
-    name: 'cosmOS',
+    name: 'Travellers in out door gear',
     description:
       'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+    link: { href: 'https://travellersinoutdoorgear.com/home-page', label: 'travellersinoutdoorgear.com' },
+    logo: logotravelers,
   },
   {
-    name: 'OpenShuttle',
+    name: 'Amaura Fashion',
     description:
       'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
+    link: { href: 'http://amaurafashion.com/', label: 'amaurafashion.com' },
+    logo: logoamaura,
+  },
+  {
+    name: 'Asyabani Collection',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'http://assyabani.com/', label: 'assyabani.com' },
+    logo: logofadsan,
+  },
+  {
+    name: 'Cattasa',
+    description:
+      'The schematics for the first rocket I designed that successfully made it to orbit.',
+    link: { href: 'https://www.instagram.com/cattasa__/', label: 'Instagram' },
+    logo: logofadsan,
   },
 ]
 
@@ -62,7 +83,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Imntsaint</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."

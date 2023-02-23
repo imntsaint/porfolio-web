@@ -41,16 +41,23 @@ export default function App({ Component, pageProps, router }) {
 //             <Footer />
 //           </div>
 //         </div>
-//       </div>
+//       </div> 
 //     </>
 //   );
 
-  return (
+return (
     <>
-      <div className="fixed inset-0 flex justify-center sm:px-8">
-        <div className="flex w-full max-w-7xl lg:px-8">
-          <div className="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20" />
-
+      <div className="fixed inset-0 flex justify-center sm:px-8 overflow-x-hidden ">
+        <div className="flex w-full max-w-7xl lg:px-8 container relative">
+        <div className="absolute top-56 xl:top-64 transition-all left-8 md:left-20 rotate-[35deg]">
+            <div className="relative flex flex-col">
+              <div className="w-[300px] sm:w-[500px] transition-all md:w-[660px] lg:w-[800px] xl:w-[900px] rounded-lg h-14 bg-gradient-to-r from-blue-400 to-blue-400 dark:from-blue-500 dark:to-blue-500"></div>
+              <div className="w-[300px] sm:w-[500px] transition-all md:w-[660px] lg:w-[800px] xl:w-[900px] rounded-lg h-14 bg-gradient-to-r from-purple-400 dark:from-blue-700 dark:to-sky-800 to-purple-400 "></div>
+              <div className="w-[300px] sm:w-[500px] transition-all md:w-[660px] lg:w-[800px] xl:w-[900px] rounded-lg h-14 bg-gradient-to-r from-cyan-200 dark:from-purple-700 dark:to-purple-700 to-cyan-200 "></div>
+              <div className="w-[300px] sm:w-[500px] transition-all md:w-[660px] lg:w-[800px] xl:w-[900px] rounded-lg h-14 bg-gradient-to-r from-red-200 to-red-200 dark:from-fuchsia-700 dark:to-fuchsia-700"></div>
+            </div>
+          </div>
+          <div className="w-full bg-opacity-50 dark:bg-opacity-70 backdrop-blur-2xl bg-white ring-1 ring-zinc-100 dark:bg-zinc-900  dark:ring-zinc-300/20" />
         </div>
       </div>
       <div className="relative">
@@ -62,4 +69,22 @@ export default function App({ Component, pageProps, router }) {
       </div>
     </>
   )
+
+  // return (
+  //   <>
+  //     <div className="fixed inset-0 flex justify-center sm:px-8">
+  //       <div className="flex w-full max-w-7xl lg:px-8">
+  //         <div className="w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20" />
+
+  //       </div>
+  //     </div>
+  //     <div className="relative">
+  //       <Header />
+  //       <main>
+  //         <Component previousPathname={previousPathname} {...pageProps} />
+  //       </main>
+  //       <Footer />
+  //     </div>
+  //   </>
+  // )
 }
